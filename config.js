@@ -7,12 +7,12 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCS7oQfS3o_weJjC7qWAPXCFOt3pxQB2Pc",
+  authDomain: "habit-bird.firebaseapp.com",
+  projectId: "habit-bird",
+  storageBucket: "habit-bird.firebasestorage.app",
+  messagingSenderId: "115701942875",
+  appId: "1:115701942875:web:4a2763b16a219776ac4d7e"
 };
 
 const app = initializeApp(firebaseConfig);
